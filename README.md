@@ -12,8 +12,16 @@ MoveX is a fast PostgreSQL schema transfer CLI + Python library.
 
 ## Install
 
+One-line Windows install (PowerShell):
 ```powershell
-cd ".\DB Migrate"
+irm https://raw.githubusercontent.com/MonishGosar/movex/main/install.ps1 | iex
+```
+
+Or manual install:
+
+```powershell
+git clone https://github.com/MonishGosar/movex.git
+cd .\movex
 python -m pip install .
 ```
 
