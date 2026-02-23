@@ -1,0 +1,22 @@
+{
+  "source": {
+    "dsn": "postgresql://user:password@localhost:5432/source_db?sslmode=require"
+  },
+  "target": {
+    "dsn": "postgresql://user:password@localhost:5432/target_db?sslmode=require"
+  },
+  "profiles": {
+    "demo": {
+      "dsn": ""
+    },
+    "dev": {
+      "dsn": ""
+    },
+    "uat": {
+      "dsn": ""
+    },
+    "prod": {
+      "dsn": ""
+    }
+  }
+}

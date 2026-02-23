@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local credentials/config
+.env
+movex.json
+db_migrate.json
+db_profiles.json
